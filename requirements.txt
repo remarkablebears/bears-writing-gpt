@@ -1,5 +1,5 @@
 fastapi
-mangum
+python-dotenv
 line-bot-sdk
 openai
-python-dotenv
+uvicorn
