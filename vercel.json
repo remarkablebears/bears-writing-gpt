@@ -12,17 +12,8 @@
             "dest": "api/index.py"
         },
         {
-            "src": "/api/webhook",
-            "dest": "api/index.py"
-        },
-        {
             "src": "/(.*)",
             "dest": "api/index.py"
         }
-    ],
-    "functions": {
-        "api/index.py": {
-            "maxDuration": 10
-        }
-    }
+    ]
 }
