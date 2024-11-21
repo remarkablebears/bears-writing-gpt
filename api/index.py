@@ -42,7 +42,7 @@ def handle_message(event):
     """
     
     response = openai.ChatCompletion.create(
-        model="gpt-4o",
+        model="gpt-4",
         messages=[{"role": "user", "content": prompt}]
     )
     
